@@ -7,6 +7,7 @@
 //
 
 #import "MGMainScene.h"
+#import "MGAnimations.h"
 
 @implementation MGMainScene
 
@@ -22,6 +23,10 @@
 - (void)createContent
 {
     self.backgroundColor = [UIColor whiteColor];
+    self.anchorPoint = CGPointMake(0.5, 0.5);
+    MGAnimations *animationNode = [[MGAnimations alloc] init];
+    [self addChild:animationNode];
+    [animationNode runCircleAnimation];
 }
 
 @end

@@ -23,6 +23,7 @@
 		94AAEB9D193DE32F00144193 /* MinGayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB9C193DE32F00144193 /* MinGayTests.m */; };
 		94AAEBA7193DE51A00144193 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEBA6193DE51A00144193 /* SpriteKit.framework */; };
 		94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBA9193DE56600144193 /* MGMainScene.m */; };
+		94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBAC193DEA2100144193 /* MGAnimations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		94AAEBA6193DE51A00144193 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		94AAEBA8193DE56600144193 /* MGMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMainScene.h; sourceTree = "<group>"; };
 		94AAEBA9193DE56600144193 /* MGMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMainScene.m; sourceTree = "<group>"; };
+		94AAEBAB193DEA2100144193 /* MGAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAnimations.h; sourceTree = "<group>"; };
+		94AAEBAC193DEA2100144193 /* MGAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAnimations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +122,15 @@
 		94AAEB77193DE32E00144193 /* MinGay */ = {
 			isa = PBXGroup;
 			children = (
-				94AAEB80193DE32E00144193 /* MGAppDelegate.h */,
-				94AAEBA8193DE56600144193 /* MGMainScene.h */,
-				94AAEBA9193DE56600144193 /* MGMainScene.m */,
-				94AAEB81193DE32E00144193 /* MGAppDelegate.m */,
 				94AAEB83193DE32E00144193 /* Main.storyboard */,
+				94AAEB80193DE32E00144193 /* MGAppDelegate.h */,
+				94AAEB81193DE32E00144193 /* MGAppDelegate.m */,
 				94AAEB86193DE32E00144193 /* MGViewController.h */,
 				94AAEB87193DE32E00144193 /* MGViewController.m */,
+				94AAEBA8193DE56600144193 /* MGMainScene.h */,
+				94AAEBA9193DE56600144193 /* MGMainScene.m */,
+				94AAEBAB193DEA2100144193 /* MGAnimations.h */,
+				94AAEBAC193DEA2100144193 /* MGAnimations.m */,
 				94AAEB89193DE32E00144193 /* Images.xcassets */,
 				94AAEB78193DE32E00144193 /* Supporting Files */,
 			);
@@ -263,6 +268,7 @@
 				94AAEB88193DE32E00144193 /* MGViewController.m in Sources */,
 				94AAEB7E193DE32E00144193 /* main.m in Sources */,
 				94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */,
+				94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
