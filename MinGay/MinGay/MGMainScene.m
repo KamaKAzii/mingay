@@ -37,17 +37,6 @@
     MGAnimations *animationNode = [[MGAnimations alloc] init];
     [self addChild:animationNode];
     [animationNode runCircleAnimation];
-    
-    
-    for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-        
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@"  %@", name);
-        }
-    }
 }
 
 @end
