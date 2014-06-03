@@ -11,6 +11,16 @@
 
 @implementation MGMainScene
 
+/*
+ 
+ Font names in system:
+    Lato-Regular
+    Lato-Hairline
+    Lato-LightItalic
+    Lato-Light
+ 
+ */
+
 - (void)didMoveToView:(SKView *)view
 {
     if (!self.contentCreated)
@@ -27,6 +37,17 @@
     MGAnimations *animationNode = [[MGAnimations alloc] init];
     [self addChild:animationNode];
     [animationNode runCircleAnimation];
+    
+    
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@"  %@", name);
+        }
+    }
 }
 
 @end

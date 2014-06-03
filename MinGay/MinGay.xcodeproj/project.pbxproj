@@ -24,6 +24,10 @@
 		94AAEBA7193DE51A00144193 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEBA6193DE51A00144193 /* SpriteKit.framework */; };
 		94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBA9193DE56600144193 /* MGMainScene.m */; };
 		94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBAC193DEA2100144193 /* MGAnimations.m */; };
+		94AAEBB2193DF1B300144193 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */; };
+		94AAEBB3193DF1B300144193 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBAF193DF1B300144193 /* Lato-Light.ttf */; };
+		94AAEBB4193DF1B300144193 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */; };
+		94AAEBB5193DF1B300144193 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBB1193DF1B300144193 /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		94AAEBA9193DE56600144193 /* MGMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMainScene.m; sourceTree = "<group>"; };
 		94AAEBAB193DEA2100144193 /* MGAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAnimations.h; sourceTree = "<group>"; };
 		94AAEBAC193DEA2100144193 /* MGAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAnimations.m; sourceTree = "<group>"; };
+		94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		94AAEBAF193DF1B300144193 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		94AAEBB1193DF1B300144193 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,10 @@
 				94AAEBA9193DE56600144193 /* MGMainScene.m */,
 				94AAEBAB193DEA2100144193 /* MGAnimations.h */,
 				94AAEBAC193DEA2100144193 /* MGAnimations.m */,
+				94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */,
+				94AAEBAF193DF1B300144193 /* Lato-Light.ttf */,
+				94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */,
+				94AAEBB1193DF1B300144193 /* Lato-Regular.ttf */,
 				94AAEB89193DE32E00144193 /* Images.xcassets */,
 				94AAEB78193DE32E00144193 /* Supporting Files */,
 			);
@@ -243,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AAEBB3193DF1B300144193 /* Lato-Light.ttf in Resources */,
+				94AAEBB4193DF1B300144193 /* Lato-LightItalic.ttf in Resources */,
 				94AAEB8A193DE32E00144193 /* Images.xcassets in Resources */,
 				94AAEB7C193DE32E00144193 /* InfoPlist.strings in Resources */,
+				94AAEBB5193DF1B300144193 /* Lato-Regular.ttf in Resources */,
+				94AAEBB2193DF1B300144193 /* Lato-Hairline.ttf in Resources */,
 				94AAEB85193DE32E00144193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

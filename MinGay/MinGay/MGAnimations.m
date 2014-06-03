@@ -15,6 +15,14 @@
     if (self = [super init])
     {
         self.activeAnimationNodes = [[NSMutableArray alloc] init];
+        
+        SKLabelNode *labelListen = [[SKLabelNode alloc] initWithFontNamed:@"Lato-Light"];
+        labelListen.text = @"listen";
+        labelListen.fontColor = [UIColor blackColor];
+        labelListen.alpha = 0.2;
+        labelListen.fontSize = 25;
+        labelListen.position = CGPointMake(0, 200);
+        [self addChild:labelListen];
     }
     return self;
 }
@@ -30,12 +38,12 @@
         CGMutablePathRef circlePath = CGPathCreateMutable();
         CGPathAddArc(circlePath, NULL, 0, 0, startingDiameter * (i + 1), 0, M_PI * 2, YES);
         circle.path = circlePath;
-        circle.fillColor = [UIColor colorWithRed:0/255.0f green:0/255.0f blue:0/255.0f alpha:0.04];
+        circle.alpha = 0.04;
+        circle.fillColor = [UIColor blackColor];
         
         [self addChild:circle];
         [self.activeAnimationNodes addObject:circle];
     }
-
 }
 
 @end
