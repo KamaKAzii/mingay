@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94AAEB72193DE32E00144193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB71193DE32E00144193 /* Foundation.framework */; };
+		94AAEB74193DE32E00144193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB73193DE32E00144193 /* CoreGraphics.framework */; };
+		94AAEB76193DE32E00144193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB75193DE32E00144193 /* UIKit.framework */; };
+		94AAEB7C193DE32E00144193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEB7A193DE32E00144193 /* InfoPlist.strings */; };
+		94AAEB7E193DE32E00144193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB7D193DE32E00144193 /* main.m */; };
+		94AAEB82193DE32E00144193 /* MGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB81193DE32E00144193 /* MGAppDelegate.m */; };
+		94AAEB85193DE32E00144193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEB83193DE32E00144193 /* Main.storyboard */; };
+		94AAEB88193DE32E00144193 /* MGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB87193DE32E00144193 /* MGViewController.m */; };
+		94AAEB8A193DE32E00144193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEB89193DE32E00144193 /* Images.xcassets */; };
+		94AAEB91193DE32F00144193 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB90193DE32F00144193 /* XCTest.framework */; };
+		94AAEB92193DE32F00144193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB71193DE32E00144193 /* Foundation.framework */; };
+		94AAEB93193DE32F00144193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEB75193DE32E00144193 /* UIKit.framework */; };
+		94AAEB9B193DE32F00144193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEB99193DE32F00144193 /* InfoPlist.strings */; };
+		94AAEB9D193DE32F00144193 /* MinGayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB9C193DE32F00144193 /* MinGayTests.m */; };
+		94AAEBA7193DE51A00144193 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEBA6193DE51A00144193 /* SpriteKit.framework */; };
+		94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBA9193DE56600144193 /* MGMainScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94AAEB94193DE32F00144193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94AAEB66193DE32E00144193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AAEB6D193DE32E00144193;
+			remoteInfo = MinGay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94AAEB6E193DE32E00144193 /* MinGay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinGay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AAEB71193DE32E00144193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94AAEB73193DE32E00144193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94AAEB75193DE32E00144193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94AAEB79193DE32E00144193 /* MinGay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinGay-Info.plist"; sourceTree = "<group>"; };
+		94AAEB7B193DE32E00144193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94AAEB7D193DE32E00144193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94AAEB7F193DE32E00144193 /* MinGay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinGay-Prefix.pch"; sourceTree = "<group>"; };
+		94AAEB80193DE32E00144193 /* MGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAppDelegate.h; sourceTree = "<group>"; };
+		94AAEB81193DE32E00144193 /* MGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAppDelegate.m; sourceTree = "<group>"; };
+		94AAEB84193DE32E00144193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94AAEB86193DE32E00144193 /* MGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGViewController.h; sourceTree = "<group>"; };
+		94AAEB87193DE32E00144193 /* MGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGViewController.m; sourceTree = "<group>"; };
+		94AAEB89193DE32E00144193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94AAEB8F193DE32F00144193 /* MinGayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinGayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AAEB90193DE32F00144193 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94AAEB98193DE32F00144193 /* MinGayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinGayTests-Info.plist"; sourceTree = "<group>"; };
+		94AAEB9A193DE32F00144193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94AAEB9C193DE32F00144193 /* MinGayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinGayTests.m; sourceTree = "<group>"; };
+		94AAEBA6193DE51A00144193 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		94AAEBA8193DE56600144193 /* MGMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMainScene.h; sourceTree = "<group>"; };
+		94AAEBA9193DE56600144193 /* MGMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMainScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94AAEB6B193DE32E00144193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEBA7193DE51A00144193 /* SpriteKit.framework in Frameworks */,
+				94AAEB74193DE32E00144193 /* CoreGraphics.framework in Frameworks */,
+				94AAEB76193DE32E00144193 /* UIKit.framework in Frameworks */,
+				94AAEB72193DE32E00144193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AAEB8C193DE32F00144193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEB91193DE32F00144193 /* XCTest.framework in Frameworks */,
+				94AAEB93193DE32F00144193 /* UIKit.framework in Frameworks */,
+				94AAEB92193DE32F00144193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94AAEB65193DE32E00144193 = {
+			isa = PBXGroup;
+			children = (
+				94AAEB77193DE32E00144193 /* MinGay */,
+				94AAEB96193DE32F00144193 /* MinGayTests */,
+				94AAEB70193DE32E00144193 /* Frameworks */,
+				94AAEB6F193DE32E00144193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94AAEB6F193DE32E00144193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEB6E193DE32E00144193 /* MinGay.app */,
+				94AAEB8F193DE32F00144193 /* MinGayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94AAEB70193DE32E00144193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEBA6193DE51A00144193 /* SpriteKit.framework */,
+				94AAEB71193DE32E00144193 /* Foundation.framework */,
+				94AAEB73193DE32E00144193 /* CoreGraphics.framework */,
+				94AAEB75193DE32E00144193 /* UIKit.framework */,
+				94AAEB90193DE32F00144193 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AAEB77193DE32E00144193 /* MinGay */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEB80193DE32E00144193 /* MGAppDelegate.h */,
+				94AAEBA8193DE56600144193 /* MGMainScene.h */,
+				94AAEBA9193DE56600144193 /* MGMainScene.m */,
+				94AAEB81193DE32E00144193 /* MGAppDelegate.m */,
+				94AAEB83193DE32E00144193 /* Main.storyboard */,
+				94AAEB86193DE32E00144193 /* MGViewController.h */,
+				94AAEB87193DE32E00144193 /* MGViewController.m */,
+				94AAEB89193DE32E00144193 /* Images.xcassets */,
+				94AAEB78193DE32E00144193 /* Supporting Files */,
+			);
+			path = MinGay;
+			sourceTree = "<group>";
+		};
+		94AAEB78193DE32E00144193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEB79193DE32E00144193 /* MinGay-Info.plist */,
+				94AAEB7A193DE32E00144193 /* InfoPlist.strings */,
+				94AAEB7D193DE32E00144193 /* main.m */,
+				94AAEB7F193DE32E00144193 /* MinGay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94AAEB96193DE32F00144193 /* MinGayTests */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEB9C193DE32F00144193 /* MinGayTests.m */,
+				94AAEB97193DE32F00144193 /* Supporting Files */,
+			);
+			path = MinGayTests;
+			sourceTree = "<group>";
+		};
+		94AAEB97193DE32F00144193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEB98193DE32F00144193 /* MinGayTests-Info.plist */,
+				94AAEB99193DE32F00144193 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94AAEB6D193DE32E00144193 /* MinGay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AAEBA0193DE32F00144193 /* Build configuration list for PBXNativeTarget "MinGay" */;
+			buildPhases = (
+				94AAEB6A193DE32E00144193 /* Sources */,
+				94AAEB6B193DE32E00144193 /* Frameworks */,
+				94AAEB6C193DE32E00144193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinGay;
+			productName = MinGay;
+			productReference = 94AAEB6E193DE32E00144193 /* MinGay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94AAEB8E193DE32F00144193 /* MinGayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AAEBA3193DE32F00144193 /* Build configuration list for PBXNativeTarget "MinGayTests" */;
+			buildPhases = (
+				94AAEB8B193DE32F00144193 /* Sources */,
+				94AAEB8C193DE32F00144193 /* Frameworks */,
+				94AAEB8D193DE32F00144193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94AAEB95193DE32F00144193 /* PBXTargetDependency */,
+			);
+			name = MinGayTests;
+			productName = MinGayTests;
+			productReference = 94AAEB8F193DE32F00144193 /* MinGayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94AAEB66193DE32E00144193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MG;
+				TargetAttributes = {
+					94AAEB8E193DE32F00144193 = {
+						TestTargetID = 94AAEB6D193DE32E00144193;
+					};
+				};
+			};
+			buildConfigurationList = 94AAEB69193DE32E00144193 /* Build configuration list for PBXProject "MinGay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94AAEB65193DE32E00144193;
+			productRefGroup = 94AAEB6F193DE32E00144193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94AAEB6D193DE32E00144193 /* MinGay */,
+				94AAEB8E193DE32F00144193 /* MinGayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94AAEB6C193DE32E00144193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEB8A193DE32E00144193 /* Images.xcassets in Resources */,
+				94AAEB7C193DE32E00144193 /* InfoPlist.strings in Resources */,
+				94AAEB85193DE32E00144193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AAEB8D193DE32F00144193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEB9B193DE32F00144193 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94AAEB6A193DE32E00144193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEB82193DE32E00144193 /* MGAppDelegate.m in Sources */,
+				94AAEB88193DE32E00144193 /* MGViewController.m in Sources */,
+				94AAEB7E193DE32E00144193 /* main.m in Sources */,
+				94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AAEB8B193DE32F00144193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AAEB9D193DE32F00144193 /* MinGayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94AAEB95193DE32F00144193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94AAEB6D193DE32E00144193 /* MinGay */;
+			targetProxy = 94AAEB94193DE32F00144193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94AAEB7A193DE32E00144193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAEB7B193DE32E00144193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94AAEB83193DE32E00144193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAEB84193DE32E00144193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94AAEB99193DE32F00144193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94AAEB9A193DE32F00144193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94AAEB9E193DE32F00144193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94AAEB9F193DE32F00144193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94AAEBA1193DE32F00144193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinGay/MinGay-Prefix.pch";
+				INFOPLIST_FILE = "MinGay/MinGay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94AAEBA2193DE32F00144193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinGay/MinGay-Prefix.pch";
+				INFOPLIST_FILE = "MinGay/MinGay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94AAEBA4193DE32F00144193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinGay.app/MinGay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinGay/MinGay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MinGayTests/MinGayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94AAEBA5193DE32F00144193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MinGay.app/MinGay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinGay/MinGay-Prefix.pch";
+				INFOPLIST_FILE = "MinGayTests/MinGayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94AAEB69193DE32E00144193 /* Build configuration list for PBXProject "MinGay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AAEB9E193DE32F00144193 /* Debug */,
+				94AAEB9F193DE32F00144193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AAEBA0193DE32F00144193 /* Build configuration list for PBXNativeTarget "MinGay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AAEBA1193DE32F00144193 /* Debug */,
+				94AAEBA2193DE32F00144193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94AAEBA3193DE32F00144193 /* Build configuration list for PBXNativeTarget "MinGayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AAEBA4193DE32F00144193 /* Debug */,
+				94AAEBA5193DE32F00144193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94AAEB66193DE32E00144193 /* Project object */;
+}

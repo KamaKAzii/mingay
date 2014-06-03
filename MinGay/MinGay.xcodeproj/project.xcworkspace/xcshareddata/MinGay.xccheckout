@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E1650B6-9DC2-4B28-B99A-3BFD760780B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MinGay</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE39F074-37C6-4B8D-8EB7-2F516AA49E6F</key>
+		<string>ssh://github.com/KamaKAzii/mingay.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MinGay/MinGay.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE39F074-37C6-4B8D-8EB7-2F516AA49E6F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/KamaKAzii/mingay.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE39F074-37C6-4B8D-8EB7-2F516AA49E6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE39F074-37C6-4B8D-8EB7-2F516AA49E6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mingay</string>
+		</dict>
+	</array>
+</dict>
+</plist>
