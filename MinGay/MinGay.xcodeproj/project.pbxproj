@@ -28,6 +28,14 @@
 		94AAEBB3193DF1B300144193 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBAF193DF1B300144193 /* Lato-Light.ttf */; };
 		94AAEBB4193DF1B300144193 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */; };
 		94AAEBB5193DF1B300144193 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBB1193DF1B300144193 /* Lato-Regular.ttf */; };
+		94AAEBC8193F5CA100144193 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBB8193F5CA100144193 /* SKAction+SKTExtras.m */; };
+		94AAEBC9193F5CA100144193 /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBBA193F5CA100144193 /* SKAction+SKTSpecialEffects.m */; };
+		94AAEBCA193F5CA100144193 /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBBC193F5CA100144193 /* SKEmitterNode+SKTExtras.m */; };
+		94AAEBCB193F5CA100144193 /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBBE193F5CA100144193 /* SKNode+SKTDebugDraw.m */; };
+		94AAEBCC193F5CA100144193 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBC0193F5CA100144193 /* SKNode+SKTExtras.m */; };
+		94AAEBCD193F5CA100144193 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBC2193F5CA100144193 /* SKTAudio.m */; };
+		94AAEBCE193F5CA100144193 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBC4193F5CA100144193 /* SKTEffects.m */; };
+		94AAEBCF193F5CA100144193 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBC6193F5CA100144193 /* SKTTimingFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +77,23 @@
 		94AAEBAF193DF1B300144193 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		94AAEBB1193DF1B300144193 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		94AAEBB7193F5CA100144193 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		94AAEBB8193F5CA100144193 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		94AAEBB9193F5CA100144193 /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		94AAEBBA193F5CA100144193 /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		94AAEBBB193F5CA100144193 /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		94AAEBBC193F5CA100144193 /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		94AAEBBD193F5CA100144193 /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		94AAEBBE193F5CA100144193 /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		94AAEBBF193F5CA100144193 /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		94AAEBC0193F5CA100144193 /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		94AAEBC1193F5CA100144193 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		94AAEBC2193F5CA100144193 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		94AAEBC3193F5CA100144193 /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		94AAEBC4193F5CA100144193 /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		94AAEBC5193F5CA100144193 /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		94AAEBC6193F5CA100144193 /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		94AAEBC7193F5CA100144193 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +155,7 @@
 		94AAEB77193DE32E00144193 /* MinGay */ = {
 			isa = PBXGroup;
 			children = (
+				94AAEBB6193F5C8E00144193 /* SKTUtils */,
 				94AAEB83193DE32E00144193 /* Main.storyboard */,
 				94AAEB80193DE32E00144193 /* MGAppDelegate.h */,
 				94AAEB81193DE32E00144193 /* MGAppDelegate.m */,
@@ -176,6 +202,30 @@
 				94AAEB99193DE32F00144193 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94AAEBB6193F5C8E00144193 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				94AAEBB7193F5CA100144193 /* SKAction+SKTExtras.h */,
+				94AAEBB8193F5CA100144193 /* SKAction+SKTExtras.m */,
+				94AAEBB9193F5CA100144193 /* SKAction+SKTSpecialEffects.h */,
+				94AAEBBA193F5CA100144193 /* SKAction+SKTSpecialEffects.m */,
+				94AAEBBB193F5CA100144193 /* SKEmitterNode+SKTExtras.h */,
+				94AAEBBC193F5CA100144193 /* SKEmitterNode+SKTExtras.m */,
+				94AAEBBD193F5CA100144193 /* SKNode+SKTDebugDraw.h */,
+				94AAEBBE193F5CA100144193 /* SKNode+SKTDebugDraw.m */,
+				94AAEBBF193F5CA100144193 /* SKNode+SKTExtras.h */,
+				94AAEBC0193F5CA100144193 /* SKNode+SKTExtras.m */,
+				94AAEBC1193F5CA100144193 /* SKTAudio.h */,
+				94AAEBC2193F5CA100144193 /* SKTAudio.m */,
+				94AAEBC3193F5CA100144193 /* SKTEffects.h */,
+				94AAEBC4193F5CA100144193 /* SKTEffects.m */,
+				94AAEBC5193F5CA100144193 /* SKTTimingFunctions.h */,
+				94AAEBC6193F5CA100144193 /* SKTTimingFunctions.m */,
+				94AAEBC7193F5CA100144193 /* SKTUtils.h */,
+			);
+			name = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AAEBCB193F5CA100144193 /* SKNode+SKTDebugDraw.m in Sources */,
+				94AAEBC9193F5CA100144193 /* SKAction+SKTSpecialEffects.m in Sources */,
 				94AAEB82193DE32E00144193 /* MGAppDelegate.m in Sources */,
 				94AAEB88193DE32E00144193 /* MGViewController.m in Sources */,
 				94AAEB7E193DE32E00144193 /* main.m in Sources */,
+				94AAEBCE193F5CA100144193 /* SKTEffects.m in Sources */,
+				94AAEBC8193F5CA100144193 /* SKAction+SKTExtras.m in Sources */,
 				94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */,
+				94AAEBCD193F5CA100144193 /* SKTAudio.m in Sources */,
+				94AAEBCA193F5CA100144193 /* SKEmitterNode+SKTExtras.m in Sources */,
+				94AAEBCF193F5CA100144193 /* SKTTimingFunctions.m in Sources */,
 				94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */,
+				94AAEBCC193F5CA100144193 /* SKNode+SKTExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
