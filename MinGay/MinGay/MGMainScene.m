@@ -7,7 +7,7 @@
 //
 
 #import "MGMainScene.h"
-#import "MGAnimations.h"
+#import "MGWaitingGame.h"
 
 @implementation MGMainScene
 
@@ -34,9 +34,14 @@
 {
     self.backgroundColor = [UIColor whiteColor];
     self.anchorPoint = CGPointMake(0.5, 0.5);
-    MGAnimations *animationNode = [[MGAnimations alloc] init];
-    [self addChild:animationNode];
-    [animationNode runCircleAnimation];
+    self.waitingGame = [[MGWaitingGame alloc] init];
+    [self addChild:self.waitingGame];
+    [self.waitingGame runGameAnimation];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.waitingGame runExitAnimation];
 }
 
 @end

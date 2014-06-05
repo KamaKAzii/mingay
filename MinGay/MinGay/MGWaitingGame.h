@@ -8,10 +8,12 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MGAnimations : SKNode
+@interface MGWaitingGame : SKNode
 
 @property (strong, nonatomic) NSMutableArray *activeAnimationNodes;
+@property (strong, nonatomic) NSMutableArray *activeLabelNodes;
+@property (strong, nonatomic) SKNode *activeLabelNodesContainer;
 
-- (void)runCircleAnimation;
-
+- (void)runGameAnimation;
+- (void)runExitAnimation;
 @end

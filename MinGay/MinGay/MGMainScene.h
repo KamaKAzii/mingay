@@ -7,9 +7,12 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "MGWaitingGame.h"
 
 @interface MGMainScene : SKScene
 
 @property BOOL contentCreated;
+
+@property (strong, nonatomic) MGWaitingGame *waitingGame;
 
 @end

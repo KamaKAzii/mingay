@@ -23,7 +23,7 @@
 		94AAEB9D193DE32F00144193 /* MinGayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEB9C193DE32F00144193 /* MinGayTests.m */; };
 		94AAEBA7193DE51A00144193 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AAEBA6193DE51A00144193 /* SpriteKit.framework */; };
 		94AAEBAA193DE56600144193 /* MGMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBA9193DE56600144193 /* MGMainScene.m */; };
-		94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBAC193DEA2100144193 /* MGAnimations.m */; };
+		94AAEBAD193DEA2100144193 /* MGWaitingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAEBAC193DEA2100144193 /* MGWaitingGame.m */; };
 		94AAEBB2193DF1B300144193 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */; };
 		94AAEBB3193DF1B300144193 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBAF193DF1B300144193 /* Lato-Light.ttf */; };
 		94AAEBB4193DF1B300144193 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */; };
@@ -71,8 +71,8 @@
 		94AAEBA6193DE51A00144193 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		94AAEBA8193DE56600144193 /* MGMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMainScene.h; sourceTree = "<group>"; };
 		94AAEBA9193DE56600144193 /* MGMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMainScene.m; sourceTree = "<group>"; };
-		94AAEBAB193DEA2100144193 /* MGAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAnimations.h; sourceTree = "<group>"; };
-		94AAEBAC193DEA2100144193 /* MGAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAnimations.m; sourceTree = "<group>"; };
+		94AAEBAB193DEA2100144193 /* MGWaitingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWaitingGame.h; sourceTree = "<group>"; };
+		94AAEBAC193DEA2100144193 /* MGWaitingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGWaitingGame.m; sourceTree = "<group>"; };
 		94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
 		94AAEBAF193DF1B300144193 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -163,8 +163,8 @@
 				94AAEB87193DE32E00144193 /* MGViewController.m */,
 				94AAEBA8193DE56600144193 /* MGMainScene.h */,
 				94AAEBA9193DE56600144193 /* MGMainScene.m */,
-				94AAEBAB193DEA2100144193 /* MGAnimations.h */,
-				94AAEBAC193DEA2100144193 /* MGAnimations.m */,
+				94AAEBAB193DEA2100144193 /* MGWaitingGame.h */,
+				94AAEBAC193DEA2100144193 /* MGWaitingGame.m */,
 				94AAEBAE193DF1B300144193 /* Lato-Hairline.ttf */,
 				94AAEBAF193DF1B300144193 /* Lato-Light.ttf */,
 				94AAEBB0193DF1B300144193 /* Lato-LightItalic.ttf */,
@@ -341,7 +341,7 @@
 				94AAEBCD193F5CA100144193 /* SKTAudio.m in Sources */,
 				94AAEBCA193F5CA100144193 /* SKEmitterNode+SKTExtras.m in Sources */,
 				94AAEBCF193F5CA100144193 /* SKTTimingFunctions.m in Sources */,
-				94AAEBAD193DEA2100144193 /* MGAnimations.m in Sources */,
+				94AAEBAD193DEA2100144193 /* MGWaitingGame.m in Sources */,
 				94AAEBCC193F5CA100144193 /* SKNode+SKTExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
